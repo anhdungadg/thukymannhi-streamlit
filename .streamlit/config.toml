@@ -1,0 +1,24 @@
+
+
+# Pastel Pink Theme
+[theme]
+primaryColor = "#f48fb1"  # Pastel pink
+backgroundColor = "#fff0f5"  # Lavender blush
+secondaryBackgroundColor = "#f8bbd0"  # Light pink
+textColor = "#424242"  # Dark gray
+
+
+[server]
+enableStaticServing = true
+# Add custom error messages
+headlessMode = false
+runOnSave = true
+maxUploadSize = 200
+maxMessageSize = 200
+enableXsrfProtection = true
+enableCORS = false
+
+# Custom error messages
+[server.customSessionInfo]
+sessionInfo = "Oops! Connection lost. Please check if the Streamlit server is running."
+
